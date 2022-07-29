@@ -1,3 +1,3 @@
 module.exports = {
-  'dbURL': 'mongodb+srv://Tamir:tamir123@cluster0.mvu5h.mongodb.net/?retryWrites=true&w=majority',
-}
+  dbURL: process.env.REACT_APP_MONGO_DBURL,
+};
