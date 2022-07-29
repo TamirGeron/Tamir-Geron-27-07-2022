@@ -80,6 +80,7 @@ async function add(user) {
       password: user.password,
       name: user.name,
       isAdmin: false,
+      friends: [],
     };
     const collection = await dbService.getCollection("user");
     await collection.insertOne(userToAdd);
