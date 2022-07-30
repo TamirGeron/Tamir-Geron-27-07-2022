@@ -11,6 +11,7 @@ module.exports = {
 async function query(userId) {
   const criteria = _buildCriteria(userId);
   try {
+    console.log(userId);
     const collection = await dbService.getCollection("chat");
     var chats = await collection.find(criteria).toArray();
     return chats;
@@ -57,7 +58,7 @@ async function add(chat) {
 }
 
 function _buildCriteria(userId) {
-  if ((userId = "all")) return {};
+  if (userId === "all") return {};
   return {
     users: { $elemMatch: { _id: userId } },
   };

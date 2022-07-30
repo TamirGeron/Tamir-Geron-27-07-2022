@@ -546,3 +546,14 @@
 30/07/2022, 21:56:02 - DEBUG - Getting chats
 30/07/2022, 21:58:45 - INFO - Server is running on port: 3030
 30/07/2022, 21:58:46 - INFO - Server is running on port: 3030
+30/07/2022, 22:18:20 - INFO - Server is running on port: 3030
+30/07/2022, 22:19:09 - DEBUG - auth.service - signup with username: new@gmail, fullname: NEW
+30/07/2022, 22:19:09 - INFO - User login:  | {"email":"new@gmail","password":"$2b$10$WRGUVxjN05PQL.w6p0jctu66Fn0s80wzGJuV206X1I9Aq1E02CNkq","name":"NEW","isAdmin":false,"friends":[],"_id":"62e5842dd2171f68dc8fd0f7"}
+30/07/2022, 22:19:13 - DEBUG - Getting chats
+30/07/2022, 22:24:06 - INFO - Server is running on port: 3030
+30/07/2022, 22:24:11 - DEBUG - Getting chats
+30/07/2022, 22:24:57 - DEBUG - Getting chats
+30/07/2022, 22:25:26 - INFO - Server is running on port: 3030
+30/07/2022, 22:25:29 - DEBUG - Getting chats
+30/07/2022, 22:25:43 - INFO - Server is running on port: 3030
+30/07/2022, 22:25:45 - DEBUG - Getting chats
