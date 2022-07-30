@@ -57,6 +57,7 @@ async function add(chat) {
 }
 
 function _buildCriteria(userId) {
+  if ((userId = "all")) return {};
   return {
     users: { $elemMatch: { _id: userId } },
   };

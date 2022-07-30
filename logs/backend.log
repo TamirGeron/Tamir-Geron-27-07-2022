@@ -292,3 +292,257 @@
 30/07/2022, 14:25:02 - INFO - Server is running on port: 3030
 30/07/2022, 14:25:49 - INFO - Server is running on port: 3030
 30/07/2022, 14:27:27 - INFO - Server is running on port: 3030
+30/07/2022, 14:29:52 - DEBUG - Getting chats
+30/07/2022, 14:29:56 - DEBUG - Getting chats
+30/07/2022, 14:30:01 - DEBUG - Getting chats
+30/07/2022, 14:30:01 - DEBUG - Getting chats
+30/07/2022, 14:30:15 - DEBUG - auth.service - login with email: tamir@gmail
+30/07/2022, 14:30:15 - INFO - User login:  | {"_id":"62e4475e1ecb393dcf3e6236","email":"tamir@gmail","name":"Tamir Geron","isAdmin":false,"friends":[{"_id":"62e4462e1ecb393dcf3e6235","name":"Admin","email":"admin@admin"},{"_id":"62e4529c1ecb393dcf3e623a","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"}]}
+30/07/2022, 14:30:17 - DEBUG - Getting chats
+30/07/2022, 14:30:30 - DEBUG - Getting chats
+30/07/2022, 14:30:36 - DEBUG - Getting chats
+30/07/2022, 14:36:41 - DEBUG - Getting chats
+30/07/2022, 14:36:52 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 14:36:52 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4635f1ecb393dcf3e6244","name":"Hadar","email":"hadar@gmail"},{"_id":"62e4615a1ecb393dcf3e623f","name":"Erez","email":"erez@gmail"},{"_id":"62e4529c1ecb393dcf3e623a","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"}]}
+30/07/2022, 14:54:54 - INFO - Server is running on port: 3030
+30/07/2022, 14:55:17 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 14:55:17 - ERROR - Failed to Login Invalid email or password
+30/07/2022, 14:55:33 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 14:55:33 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4635f1ecb393dcf3e6244","name":"Hadar","email":"hadar@gmail"},{"_id":"62e4615a1ecb393dcf3e623f","name":"Erez","email":"erez@gmail"},{"_id":"62e4529c1ecb393dcf3e623a","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"}]}
+30/07/2022, 14:55:58 - DEBUG - Getting chats
+30/07/2022, 14:57:29 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 14:57:29 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4529c1ecb393dcf3e623a","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"}]}
+30/07/2022, 14:57:40 - DEBUG - Getting chats
+30/07/2022, 14:59:53 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 14:59:53 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"}]}
+30/07/2022, 15:00:19 - DEBUG - Getting chats
+30/07/2022, 15:01:32 - DEBUG - Getting chats
+30/07/2022, 15:01:56 - DEBUG - auth.service - signup with username: joni@gmail, fullname: Joni
+30/07/2022, 15:01:56 - INFO - User login:  | {"email":"joni@gmail","password":"$2b$10$N7PmhJZtIHdd6IAtAeiQ1u3.NfWzlg1N0ypmwEqUebz6hKSyIRXmS","name":"Joni","isAdmin":false,"friends":[],"_id":"62e51db4c75cc9b3f86eec16"}
+30/07/2022, 15:02:10 - DEBUG - auth.service - signup with username: erez@gmail, fullname: Erez
+30/07/2022, 15:02:10 - INFO - User login:  | {"email":"erez@gmail","password":"$2b$10$tgk7gZ0rJMPNKKLPsijcwejP5BzOX6tcaNyBSxo/hGoWAV/IFMmtK","name":"Erez","isAdmin":false,"friends":[],"_id":"62e51dc2c75cc9b3f86eec17"}
+30/07/2022, 15:02:19 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:02:20 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"}]}
+30/07/2022, 15:02:25 - DEBUG - Getting chats
+30/07/2022, 15:02:31 - DEBUG - Getting chats
+30/07/2022, 15:02:36 - DEBUG - Getting chats
+30/07/2022, 15:03:28 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:03:28 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e4476f1ecb393dcf3e6237","name":"Or Peres","email":"or@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir Geron","email":"tamir@gmail"},{"_id":"62e51dc2c75cc9b3f86eec17","name":"Erez","email":"erez@gmail"}]}
+30/07/2022, 15:25:03 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:25:04 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[]}
+30/07/2022, 15:28:48 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:28:48 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[]}
+30/07/2022, 15:31:11 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:31:11 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[]}
+30/07/2022, 15:37:26 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:37:26 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"}]}
+30/07/2022, 15:37:49 - DEBUG - Getting chats
+30/07/2022, 15:39:48 - INFO - Server is running on port: 3030
+30/07/2022, 15:39:56 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 15:39:57 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[]}
+30/07/2022, 15:40:19 - DEBUG - Getting chats
+30/07/2022, 15:40:24 - DEBUG - Getting chats
+30/07/2022, 15:40:38 - DEBUG - Getting chats
+30/07/2022, 15:47:29 - DEBUG - Getting chats
+30/07/2022, 15:51:51 - DEBUG - Getting chats
+30/07/2022, 15:52:49 - INFO - Server is running on port: 3030
+30/07/2022, 15:53:56 - DEBUG - Getting chats
+30/07/2022, 16:44:21 - DEBUG - Getting chats
+30/07/2022, 16:44:29 - DEBUG - Getting chats
+30/07/2022, 16:45:23 - DEBUG - Getting chats
+30/07/2022, 16:45:24 - DEBUG - Getting chats
+30/07/2022, 16:45:33 - DEBUG - Getting chats
+30/07/2022, 16:45:58 - DEBUG - Getting chats
+30/07/2022, 16:46:20 - DEBUG - Getting chats
+30/07/2022, 16:46:26 - DEBUG - Getting chats
+30/07/2022, 16:46:37 - DEBUG - Getting chats
+30/07/2022, 16:47:01 - DEBUG - Getting chats
+30/07/2022, 16:47:37 - DEBUG - Getting chats
+30/07/2022, 16:48:07 - DEBUG - Getting chats
+30/07/2022, 16:48:28 - DEBUG - Getting chats
+30/07/2022, 16:48:53 - DEBUG - Getting chats
+30/07/2022, 16:50:41 - DEBUG - Getting chats
+30/07/2022, 16:52:13 - INFO - Server is running on port: 3030
+30/07/2022, 16:52:31 - INFO - Server is running on port: 3030
+30/07/2022, 16:52:45 - DEBUG - Getting chats
+30/07/2022, 16:53:24 - INFO - Server is running on port: 3030
+30/07/2022, 16:53:56 - INFO - Server is running on port: 3030
+30/07/2022, 16:54:07 - DEBUG - Getting chats
+30/07/2022, 16:54:34 - INFO - Server is running on port: 3030
+30/07/2022, 16:54:57 - DEBUG - Getting chats
+30/07/2022, 16:55:03 - DEBUG - Getting chats
+30/07/2022, 16:55:13 - DEBUG - Getting chats
+30/07/2022, 16:55:30 - DEBUG - Getting chats
+30/07/2022, 16:55:37 - DEBUG - Getting chats
+30/07/2022, 16:55:57 - INFO - Server is running on port: 3030
+30/07/2022, 16:56:27 - DEBUG - Getting chats
+30/07/2022, 16:56:31 - DEBUG - Getting chats
+30/07/2022, 16:57:37 - INFO - Server is running on port: 3030
+30/07/2022, 16:57:40 - DEBUG - Getting chats
+30/07/2022, 16:57:54 - INFO - Server is running on port: 3030
+30/07/2022, 16:58:01 - DEBUG - Getting chats
+30/07/2022, 16:58:15 - INFO - Server is running on port: 3030
+30/07/2022, 16:58:19 - DEBUG - Getting chats
+30/07/2022, 16:58:43 - INFO - Server is running on port: 3030
+30/07/2022, 16:59:02 - DEBUG - Getting chats
+30/07/2022, 16:59:13 - DEBUG - Getting chats
+30/07/2022, 16:59:16 - DEBUG - Getting chats
+30/07/2022, 16:59:37 - INFO - Server is running on port: 3030
+30/07/2022, 16:59:39 - DEBUG - Getting chats
+30/07/2022, 16:59:53 - INFO - Server is running on port: 3030
+30/07/2022, 17:00:04 - DEBUG - Getting chats
+30/07/2022, 17:00:10 - DEBUG - Getting chats
+30/07/2022, 17:00:16 - DEBUG - Getting chats
+30/07/2022, 17:01:03 - DEBUG - Getting chats
+30/07/2022, 17:02:42 - DEBUG - Getting chats
+30/07/2022, 17:02:48 - DEBUG - Getting chats
+30/07/2022, 17:02:48 - DEBUG - Getting chats
+30/07/2022, 17:02:58 - DEBUG - Getting chats
+30/07/2022, 17:03:05 - DEBUG - Getting chats
+30/07/2022, 17:03:08 - DEBUG - Getting chats
+30/07/2022, 17:03:40 - DEBUG - Getting chats
+30/07/2022, 17:03:48 - DEBUG - Getting chats
+30/07/2022, 17:03:48 - DEBUG - Getting chats
+30/07/2022, 17:03:54 - DEBUG - Getting chats
+30/07/2022, 17:04:17 - DEBUG - Getting chats
+30/07/2022, 17:05:30 - DEBUG - Getting chats
+30/07/2022, 17:05:38 - DEBUG - Getting chats
+30/07/2022, 17:05:40 - DEBUG - Getting chats
+30/07/2022, 17:05:46 - DEBUG - Getting chats
+30/07/2022, 17:05:59 - DEBUG - auth.service - login with email: joni@gmail
+30/07/2022, 17:06:00 - INFO - User login:  | {"_id":"62e51db4c75cc9b3f86eec16","email":"joni@gmail","name":"Joni G","isAdmin":false,"friends":[]}
+30/07/2022, 17:06:03 - DEBUG - Getting chats
+30/07/2022, 17:06:09 - DEBUG - Getting chats
+30/07/2022, 17:06:17 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 17:06:17 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni G","email":"joni@gmail"}]}
+30/07/2022, 17:06:24 - DEBUG - Getting chats
+30/07/2022, 17:06:25 - DEBUG - Getting chats
+30/07/2022, 17:06:26 - DEBUG - Getting chats
+30/07/2022, 17:06:32 - DEBUG - Getting chats
+30/07/2022, 17:06:53 - DEBUG - Getting chats
+30/07/2022, 17:08:36 - DEBUG - Getting chats
+30/07/2022, 17:09:31 - DEBUG - Getting chats
+30/07/2022, 17:11:09 - DEBUG - Getting chats
+30/07/2022, 17:11:52 - DEBUG - Getting chats
+30/07/2022, 17:12:15 - DEBUG - Getting chats
+30/07/2022, 17:14:41 - DEBUG - Getting chats
+30/07/2022, 17:15:19 - DEBUG - Getting chats
+30/07/2022, 17:15:41 - DEBUG - Getting chats
+30/07/2022, 17:15:53 - DEBUG - Getting chats
+30/07/2022, 17:16:30 - DEBUG - Getting chats
+30/07/2022, 17:17:48 - DEBUG - Getting chats
+30/07/2022, 17:18:22 - DEBUG - Getting chats
+30/07/2022, 17:18:39 - DEBUG - Getting chats
+30/07/2022, 17:19:00 - DEBUG - Getting chats
+30/07/2022, 17:19:24 - DEBUG - Getting chats
+30/07/2022, 17:19:58 - DEBUG - Getting chats
+30/07/2022, 17:20:18 - DEBUG - Getting chats
+30/07/2022, 17:20:29 - DEBUG - Getting chats
+30/07/2022, 17:20:36 - DEBUG - Getting chats
+30/07/2022, 17:20:45 - DEBUG - Getting chats
+30/07/2022, 17:20:56 - DEBUG - Getting chats
+30/07/2022, 17:21:18 - DEBUG - Getting chats
+30/07/2022, 17:21:47 - DEBUG - Getting chats
+30/07/2022, 17:31:39 - DEBUG - Getting chats
+30/07/2022, 17:32:10 - DEBUG - Getting chats
+30/07/2022, 17:32:49 - DEBUG - Getting chats
+30/07/2022, 18:29:07 - INFO - Server is running on port: 3030
+30/07/2022, 18:29:34 - INFO - Server is running on port: 3030
+30/07/2022, 19:01:23 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 19:01:23 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir ","email":"tamir@gmail"}]}
+30/07/2022, 19:41:14 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 19:41:14 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir ","email":"tamir@gmail"}]}
+30/07/2022, 19:41:23 - DEBUG - Getting chats
+30/07/2022, 19:41:31 - DEBUG - Getting chats
+30/07/2022, 19:41:31 - DEBUG - Getting chats
+30/07/2022, 19:41:42 - DEBUG - Getting chats
+30/07/2022, 19:41:45 - DEBUG - Getting chats
+30/07/2022, 19:41:46 - DEBUG - Getting chats
+30/07/2022, 19:47:29 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 19:47:29 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir ","email":"tamir@gmail"}]}
+30/07/2022, 19:58:12 - DEBUG - auth.service - signup with username: joni@gmail, fullname: Joni
+30/07/2022, 19:58:12 - INFO - User login:  | {"email":"joni@gmail","password":"$2b$10$WE9vme7FP37gTsLazA1sw.OIak/R84OeTLnvMQsXhv.OiSv8yelJe","name":"Joni","isAdmin":false,"friends":[],"_id":"62e5632418033085412a1dcb"}
+30/07/2022, 19:58:31 - DEBUG - auth.service - login with email: erez@gmail
+30/07/2022, 19:58:31 - ERROR - Failed to Login Invalid email or password
+30/07/2022, 19:58:45 - DEBUG - auth.service - signup with username: mom@gmail, fullname: MOM
+30/07/2022, 19:58:45 - INFO - User login:  | {"email":"mom@gmail","password":"$2b$10$HI0.9uwMmYkhX/ARFfoOMOspjPT/21d.U2ghfRk0fm47P.DxF21g2","name":"MOM","isAdmin":false,"friends":[],"_id":"62e5634518033085412a1dcc"}
+30/07/2022, 19:59:05 - DEBUG - auth.service - signup with username: dad@gmail, fullname: Daa
+30/07/2022, 19:59:05 - INFO - User login:  | {"email":"dad@gmail","password":"$2b$10$xH/JftHQOoPzVzqo.AeLDO/s26JA3sXK8EZoR7ZLu1kL2fwURBMfi","name":"Daa","isAdmin":false,"friends":[],"_id":"62e5635918033085412a1dcd"}
+30/07/2022, 19:59:23 - DEBUG - auth.service - signup with username: sister@gmail, fullname: SISTER
+30/07/2022, 19:59:23 - INFO - User login:  | {"email":"sister@gmail","password":"$2b$10$oKwmuctlIwEi5I.WkQby..51NNpal0mBlbwVVONY6OPYj.G9eQqgG","name":"SISTER","isAdmin":false,"friends":[],"_id":"62e5636b18033085412a1dce"}
+30/07/2022, 19:59:38 - DEBUG - Getting chats
+30/07/2022, 19:59:49 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 19:59:49 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir ","email":"tamir@gmail"}]}
+30/07/2022, 19:59:54 - DEBUG - Getting chats
+30/07/2022, 20:00:28 - DEBUG - auth.service - signup with username: dsadasdasdasdasdas@sadsdaasddsdsadasasd, fullname: TDSADASDAS
+30/07/2022, 20:00:29 - INFO - User login:  | {"email":"dsadasdasdasdasdas@sadsdaasddsdsadasasd","password":"$2b$10$nN1ImM0fQXbIWNXEzc6VXOv0LMXG1ROYs8ghrXh6IIQMQtZRNaEwi","name":"TDSADASDAS","isAdmin":false,"friends":[],"_id":"62e563ac18033085412a1dcf"}
+30/07/2022, 20:00:42 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 20:00:42 - ERROR - Failed to Login Invalid email or password
+30/07/2022, 20:00:48 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 20:00:48 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e51db4c75cc9b3f86eec16","name":"Joni Geron","email":"joni@gmail"},{"_id":"62e4475e1ecb393dcf3e6236","name":"Tamir ","email":"tamir@gmail"}]}
+30/07/2022, 20:17:01 - DEBUG - auth.service - login with email: admin@admin
+30/07/2022, 20:17:02 - INFO - User login:  | {"_id":"62e4462e1ecb393dcf3e6235","email":"admin@admin","name":"Admin","isAdmin":true,"friends":[{"_id":"62e563ac18033085412a1dcf","name":"TDSADASDAS","email":"dsadasdasdasdasdas@sadsdaasddsdsadasasd"}]}
+30/07/2022, 20:17:07 - DEBUG - Getting chats
+30/07/2022, 20:19:53 - DEBUG - Getting chats
+30/07/2022, 20:24:03 - DEBUG - Getting chats
+30/07/2022, 20:25:04 - DEBUG - Getting chats
+30/07/2022, 20:31:11 - DEBUG - Getting chats
+30/07/2022, 20:34:31 - DEBUG - Getting chats
+30/07/2022, 20:34:39 - DEBUG - Getting chats
+30/07/2022, 20:35:16 - DEBUG - Getting chats
+30/07/2022, 20:36:11 - DEBUG - Getting chats
+30/07/2022, 20:36:30 - DEBUG - Getting chats
+30/07/2022, 20:36:48 - DEBUG - Getting chats
+30/07/2022, 20:38:21 - DEBUG - Getting chats
+30/07/2022, 20:39:32 - DEBUG - Getting chats
+30/07/2022, 20:40:26 - DEBUG - Getting chats
+30/07/2022, 20:40:43 - DEBUG - Getting chats
+30/07/2022, 20:42:03 - DEBUG - Getting chats
+30/07/2022, 20:44:06 - DEBUG - Getting chats
+30/07/2022, 20:44:07 - DEBUG - Getting chats
+30/07/2022, 20:44:08 - DEBUG - Getting chats
+30/07/2022, 20:44:09 - DEBUG - Getting chats
+30/07/2022, 20:44:10 - DEBUG - Getting chats
+30/07/2022, 20:44:13 - DEBUG - Getting chats
+30/07/2022, 20:53:45 - DEBUG - Getting chats
+30/07/2022, 20:58:17 - DEBUG - Getting chats
+30/07/2022, 20:59:38 - DEBUG - Getting chats
+30/07/2022, 21:01:55 - DEBUG - Getting chats
+30/07/2022, 21:14:08 - DEBUG - Getting chats
+30/07/2022, 21:15:17 - DEBUG - Getting chats
+30/07/2022, 21:18:29 - DEBUG - Getting chats
+30/07/2022, 21:18:30 - DEBUG - Getting chats
+30/07/2022, 21:18:57 - DEBUG - Getting chats
+30/07/2022, 21:19:11 - DEBUG - Getting chats
+30/07/2022, 21:20:07 - DEBUG - Getting chats
+30/07/2022, 21:20:23 - DEBUG - Getting chats
+30/07/2022, 21:20:32 - DEBUG - Getting chats
+30/07/2022, 21:21:44 - DEBUG - Getting chats
+30/07/2022, 21:28:07 - DEBUG - Getting chats
+30/07/2022, 21:31:13 - DEBUG - Getting chats
+30/07/2022, 21:34:01 - DEBUG - Getting chats
+30/07/2022, 21:34:55 - DEBUG - Getting chats
+30/07/2022, 21:35:06 - DEBUG - Getting chats
+30/07/2022, 21:35:15 - DEBUG - Getting chats
+30/07/2022, 21:37:06 - DEBUG - Getting chats
+30/07/2022, 21:40:03 - DEBUG - Getting chats
+30/07/2022, 21:43:13 - DEBUG - Getting chats
+30/07/2022, 21:44:19 - DEBUG - Getting chats
+30/07/2022, 21:44:29 - DEBUG - Getting chats
+30/07/2022, 21:44:36 - DEBUG - Getting chats
+30/07/2022, 21:44:36 - DEBUG - Getting chats
+30/07/2022, 21:44:42 - DEBUG - Getting chats
+30/07/2022, 21:44:42 - DEBUG - Getting chats
+30/07/2022, 21:45:46 - DEBUG - Getting chats
+30/07/2022, 21:46:12 - DEBUG - Getting chats
+30/07/2022, 21:46:35 - DEBUG - Getting chats
+30/07/2022, 21:46:35 - DEBUG - Getting chats
+30/07/2022, 21:47:11 - DEBUG - Getting chats
+30/07/2022, 21:47:46 - DEBUG - Getting chats
+30/07/2022, 21:48:53 - DEBUG - Getting chats
+30/07/2022, 21:50:32 - DEBUG - Getting chats
+30/07/2022, 21:50:32 - DEBUG - Getting chats
+30/07/2022, 21:51:20 - DEBUG - Getting chats
+30/07/2022, 21:56:02 - DEBUG - Getting chats
+30/07/2022, 21:58:45 - INFO - Server is running on port: 3030
+30/07/2022, 21:58:46 - INFO - Server is running on port: 3030
