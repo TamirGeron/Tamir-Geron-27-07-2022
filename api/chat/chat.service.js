@@ -1,5 +1,6 @@
 const dbService = require("../../services/db.service");
 const ObjectId = require("mongodb").ObjectId;
+const logger = require("../../services/logger.service");
 
 module.exports = {
   query,
@@ -14,6 +15,8 @@ async function query(userId) {
     var chats = await collection.find(criteria).toArray();
     return chats;
   } catch (err) {
+    logger.error("cannot find chats", err);
+
     throw err;
   }
 }
@@ -31,6 +34,7 @@ async function update(chat) {
     await collection.updateOne({ _id: chatToSave._id }, { $set: chatToSave });
     return chatToSave;
   } catch (err) {
+    logger.error(`cannot update chat ${chat._id}`, err);
     throw err;
   }
 }
@@ -47,6 +51,7 @@ async function add(chat) {
     await collection.insertOne(chatToAdd);
     return chatToAdd;
   } catch (err) {
+    logger.error("cannot insert chat", err);
     throw err;
   }
 }

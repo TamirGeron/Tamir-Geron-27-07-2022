@@ -1,13 +1,16 @@
 const authService = require("./auth.service");
+const logger = require("../../services/logger.service");
 
 async function login(req, res) {
   const { email, password } = req.body;
   try {
     const user = await authService.login(email, password);
     const loginToken = authService.getLoginToken(user);
+    logger.info("User login: ", user);
     res.cookie("loginToken", loginToken);
     res.json(user);
   } catch (err) {
+    logger.error("Failed to Login " + err);
     res.status(401).send({ err: "Failed to Login" });
   }
 }
@@ -17,9 +20,11 @@ async function signup(req, res) {
     const { email, password, name } = req.body;
     const user = await authService.signup(email, password, name);
     const loginToken = authService.getLoginToken(user);
+    logger.info("User login: ", user);
     res.cookie("loginToken", loginToken);
     res.json(user);
   } catch (err) {
+    logger.error("Failed to signup " + err);
     res.status(500).send({ err: "Failed to signup" });
   }
 }

@@ -1,5 +1,6 @@
 const dbService = require("../../services/db.service");
 const ObjectId = require("mongodb").ObjectId;
+const logger = require("../../services/logger.service");
 
 module.exports = {
   query,
@@ -22,6 +23,7 @@ async function query(filterBy = {}) {
     });
     return users;
   } catch (err) {
+    logger.error("cannot find users", err);
     throw err;
   }
 }
@@ -33,15 +35,18 @@ async function getById(userId) {
     // delete user.password
     return user;
   } catch (err) {
+    logger.error(`while finding user ${userId}`, err);
+
     throw err;
   }
 }
-async function getByEmail(email, password) {
+async function getByEmail(email) {
   try {
     const collection = await dbService.getCollection("user");
     const user = await collection.findOne({ email });
     return user;
   } catch (err) {
+    logger.error(`while finding user ${email}`, err);
     throw err;
   }
 }
@@ -51,6 +56,7 @@ async function remove(userId) {
     const collection = await dbService.getCollection("user");
     await collection.deleteOne({ _id: ObjectId(userId) });
   } catch (err) {
+    logger.error(`cannot remove user ${userId}`, err);
     throw err;
   }
 }
@@ -68,6 +74,7 @@ async function update(user) {
     await collection.updateOne({ _id: userToSave._id }, { $set: userToSave });
     return userToSave;
   } catch (err) {
+    logger.error(`cannot update user ${user._id}`, err);
     throw err;
   }
 }
@@ -86,6 +93,7 @@ async function add(user) {
     await collection.insertOne(userToAdd);
     return userToAdd;
   } catch (err) {
+    logger.error("cannot insert user", err);
     throw err;
   }
 }

@@ -40,7 +40,9 @@ app.get("/**", (req, res) => {
   res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
 
+const logger = require("./services/logger.service");
+
 const port = process.env.PORT || 3030;
 http.listen(port, () => {
-  console.log("Server is running on port: " + port);
+  logger.info("Server is running on port: " + port);
 });
